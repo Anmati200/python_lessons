@@ -18,6 +18,8 @@ print(first," ", second,' ', third,' ', fourth,' ', fifth)
 #Конвертация множества в список, для обращения к элементам
 students = list(students)
 
+#Сортировка списка по алфавиту, для правильного соотнесения имен и оценок
+students = sorted(students)
 #Инициализация переменной типа 'словарь'
 average_point = {}
 average_point.update({students[0]:first, students[1]:second, students[2]:third, students[3]:fourth, students[4]:fifth})
