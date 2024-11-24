@@ -20,5 +20,5 @@ students = list(students)
 
 #Инициализация переменной типа 'словарь'
 average_point = {}
-average_point.update({students[4]:first, students[1]:second, students[0]:third, students[3]:fourth, students[2]:fifth})
+average_point.update({students[0]:first, students[1]:second, students[2]:third, students[3]:fourth, students[4]:fifth})
 print(average_point)
